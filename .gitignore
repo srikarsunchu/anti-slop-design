@@ -1,0 +1,4 @@
+.DS_Store
+node_modules/
+# third-party reference media stays local
+references/media/
