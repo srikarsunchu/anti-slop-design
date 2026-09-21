@@ -2,13 +2,13 @@
 
 anti-slop-design decides what a thing should look like. Since September 2026 it
 sits next to a set of skills that decide how a thing should move and how a
-component should be built. They are not vendored here; install them beside
-this one and let the handoffs below route the work.
+component should be built. Copies live in `companions/` (with their MIT licenses);
+install them beside this one and let the handoffs below route the work.
 
 ## Emil Kowalski's skills (MIT)
 
-Source: https://github.com/emilkowalski/skills. Install by copying each skill
-folder into `~/.claude/skills/`. The set, and what each is for:
+Source: https://github.com/emilkowalski/skills, vendored under `companions/`.
+Install with `cp -R companions/* ~/.claude/skills/`. The set, and what each is for:
 
 | Skill | Use it when |
 |---|---|

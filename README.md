@@ -18,13 +18,15 @@ references/       ground truth from real designs, as text and numbers
 libraries/        verified snippets for the trusted libraries
 examples/         full builds under this method, for calibration
 checklists/       the pre-ship gate
-companions.md     the motion and component skills that sit beside this one
+companions.md     which motion or component skill takes which brief
+companions/       vendored copies of those skills (MIT), one folder each
 ```
 
 ## Install
 
 ```bash
 git clone https://github.com/srikarsunchu/anti-slop-design ~/.claude/skills/anti-slop-design
+cp -R ~/.claude/skills/anti-slop-design/companions/* ~/.claude/skills/
 ```
 
 It loads on any UI work, or invoke it with `/anti-slop-design`.
@@ -37,7 +39,7 @@ handed to skills installed beside it: Emil Kowalski's
 `review-animations`, `mobile-native`, `emil-design-eng`, and the rest),
 `apple-design`, and a local `motion-primitives` bundle of
 [ibelick/motion-primitives](https://github.com/ibelick/motion-primitives).
-`companions.md` says which one takes which brief.
+They are vendored under `companions/` with their licenses; `companions.md` says which one takes which brief.
 
 ## Growing it
 
