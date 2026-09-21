@@ -30,6 +30,9 @@ Fill in `methods/brief.md` in the conversation, out loud, before writing code:
   `methods/grid-contract.md`.
 - **Depth budget.** How many sections or panels, how many show real data, how
   many move.
+- **Dim budget** (mobile only). What the screen looks like at minimum
+  brightness, and which one thing must still be tappable. See
+  `surfaces/mobile.md` and `principles/mobile-tells.md`.
 
 ## Hard gates
 
@@ -79,8 +82,18 @@ Violating one of these makes the output generated-looking. Check every time.
 | 100+ row list | react-virtuoso |
 | drag to reorder | @dnd-kit |
 | streaming chart | Liveline |
+| a named Motion Primitives component (dock, spotlight, morphing dialog…) | `motion-primitives` skill |
 
 Verify versions with `npm view <pkg> version` before trusting the snippets.
+
+## Companion skills
+
+Motion and component craft are handed to skills that sit beside this one;
+the brief and the gates stay here. `companions.md` has the full map. Short
+form: web motion beyond the ladder goes to `animate`, Expo motion to
+`animate-expo`, Apple-style sheets and gestures to `apple-design`, mobile web
+feel to `mobile-native`, reviewing motion in a diff to `review-animations`,
+a polish pass to `emil-design-eng`. Whatever comes back still passes gate 5.
 
 ## Process
 
@@ -102,6 +115,7 @@ Verify versions with `npm view <pkg> version` before trusting the snippets.
 - `libraries/` — verified snippets for the trusted libraries.
 - `examples/` — full builds made under this method, for calibration.
 - `checklists/` — the pre-ship gate.
+- `companions.md` — the motion and component skills installed beside this one, and when to hand off.
 
 For Elide work specifically, the brand system at `~/workspace/design-system`
 is the reference. Extract from it; do not restyle it.

@@ -63,6 +63,17 @@ animating transform breaks the centering when the animation ends.
 Keep opacity and color; drop transforms. Check `matchMedia` in JS before
 starting any scripted animation.
 
+## Beyond the ladder
+
+The ladder covers hover, press, reveal, and expand. A gesture-driven sheet,
+a spring that has to be interruptible, a drag that hands off to momentum, a
+shared-element transition: those are design decisions of their own, and the
+`animate` skill (web) or `animate-expo` (React Native) makes them in the
+right order. `apple-design` holds the spring and material values for
+Apple-style surfaces. When a build uses them, the result still has to pass
+this file: two curves plus the springs the companion justified, reduced
+motion guarded, nothing bouncing for attention. See `companions.md`.
+
 ## Rule
 
 Motion explains a change or gives tactile feedback. Motion that only asks for

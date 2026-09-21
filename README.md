@@ -1,4 +1,4 @@
-# sri-design
+# anti-slop-design
 
 My personal design method for building UI with AI that feels hand-made.
 Packaged as a [Claude Code](https://claude.com/claude-code) skill.
@@ -18,15 +18,26 @@ references/       ground truth from real designs, as text and numbers
 libraries/        verified snippets for the trusted libraries
 examples/         full builds under this method, for calibration
 checklists/       the pre-ship gate
+companions.md     the motion and component skills that sit beside this one
 ```
 
 ## Install
 
 ```bash
-git clone https://github.com/srikarsunchu/sri-design ~/.claude/skills/sri-design
+git clone https://github.com/srikarsunchu/anti-slop-design ~/.claude/skills/sri-design
 ```
 
 It loads on any UI work, or invoke it with `/sri-design`.
+
+## Companions
+
+This skill decides what a thing looks like. Motion and component craft are
+handed to skills installed beside it: Emil Kowalski's
+[skills](https://github.com/emilkowalski/skills) (`animate`, `animate-expo`,
+`review-animations`, `mobile-native`, `emil-design-eng`, and the rest),
+`apple-design`, and a local `motion-primitives` bundle of
+[ibelick/motion-primitives](https://github.com/ibelick/motion-primitives).
+`companions.md` says which one takes which brief.
 
 ## Growing it
 
