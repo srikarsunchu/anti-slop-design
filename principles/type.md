@@ -43,3 +43,10 @@ give a real fallback stack. Set `font-display: swap`.
 
 If the font, weight, and tracking are the defaults, the page will look
 generated regardless of everything else.
+
+## Match text rendering too
+
+When matching a browser reference, also read `-webkit-font-smoothing` and
+`text-rendering`. Equal family, weight, size, and tracking can still look
+heavier when one page uses antialiasing and the other uses platform defaults.
+Measured in [Motion.so / Frame](../references/motion-so-frame.md).

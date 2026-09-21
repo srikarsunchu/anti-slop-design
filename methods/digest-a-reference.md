@@ -28,5 +28,13 @@ a wrong extraction is caught before it becomes taste.
 
 ## The failure to avoid
 
+Picking a direction from sketches alone. Three low-fi frames compared side by
+side will always favour the most striking one, and striking is not the same as
+usable. Before committing a direction, look at a shipping, praised product
+in the same category and ask what its pages are; if the striking direction
+cannot explain why those pages exist, it has not earned the build. Lull
+built a rotary dial hi-fi before doing this and threw it away in a day.
+
+
 Silently absorbing "this looks nice" and later reproducing a vague version.
 Every lesson is a checkable rule with a reason.

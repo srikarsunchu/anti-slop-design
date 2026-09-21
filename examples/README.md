@@ -7,6 +7,12 @@ accordion, the line-draw check).
 - `slate-landing.html` — a nine-section landing page for a fictional shot-list
   tool. Monochrome dither ground, Geist, Lucide, one green for state. Ground
   truth in `references/slate-landing.md`.
+- Lull (`~/workspace/lull`, not vendored here) — an Expo app for new mothers:
+  a player with one big play disc (the amber dot is the only colour) and a
+  sound list one pull away, with favourites, search, a night log, timers that
+  fade, a Live Activity and widgets. The structure follows Dark Noise's pages;
+  a rotary-dial direction was built hi-fi and dropped the same day. Ground truth
+  in `references/lull-player.md`; the lesson in `principles/mobile-tells.md`.
 
 Serve any of them with:
 

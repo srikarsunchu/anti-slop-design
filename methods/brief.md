@@ -16,6 +16,7 @@ REFERENCE   <named real site or screen>
   icons     <set> (viewBox __ / stroke __ / caps __)
 GRID        edges ___ | spacing ___ | type scale ___
 DEPTH       __ sections, __ show real data, __ animate
+DIM         (mobile) at minimum brightness the screen shows ___; the tappable thing is ___
 SCENARIO    <two sentences of the demo data's story>
 ACCEPTANCE  "Done when ___."
 ```

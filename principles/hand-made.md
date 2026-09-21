@@ -4,6 +4,8 @@ A page reads as hand-made when it carries evidence of decisions. A page reads
 as generated when every choice is the median choice. The tells below are the
 median choices. Each has a fix.
 
+Phone screens have their own set: `principles/mobile-tells.md`.
+
 ## The tells, and the fix for each
 
 | Tell | Why it reads as generated | Fix |

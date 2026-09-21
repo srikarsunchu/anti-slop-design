@@ -18,6 +18,19 @@ as load-bearing, and adopts in one line.
 Check versions before trusting a snippet: `npm view <pkg> version`. Read the
 package's own README in node_modules if an API looks different.
 
+## React Native / Expo
+
+| Problem | Package | Note |
+|---|---|---|
+| haptics | `expo-haptics` | light impact on the primary action and selection only; guard web |
+| icons | `lucide-react-native` (+ `react-native-svg`) | real paths, one grammar |
+| radial grounds, glows, grain | `react-native-svg` | `RadialGradient` sized to the window; grain as a `Pattern` (Image repeat does not tile on iOS) |
+| slider | `@react-native-community/slider` | never hand-roll a track |
+| drag-to-dismiss sheet | `@gorhom/bottom-sheet` | plain `Modal` + `Animated` is enough for tap-to-dismiss |
+| gesture-driven motion | `react-native-reanimated` + `react-native-gesture-handler` | only when a gesture drives it; `Animated` covers breath and press |
+| audio loops | `expo-audio` | `loop = true`, `setAudioModeAsync({ shouldPlayInBackground: true, interruptionMode: 'doNotMix' })`, `setActiveForLockScreen` |
+| rating prompt | `expo-store-review` | ask after the product worked, never on first launch |
+
 ## NumberFlow
 
 ```tsx
