@@ -1,9 +1,9 @@
 ---
-name: sri-design
-description: Sri's personal design method for building UI with AI that feels hand-made. Use for any visual work — landing pages, product/app UI, mobile screens, film and video tooling, dashboards, docs sites. Loads a brief template, hard gates, and a verify step. Has no house style; it makes the output resemble a real, named reference and reads as crafted by a person.
+name: anti-slop-design
+description: Sri's personal design method (anti-slop-design) for building UI with AI that feels hand-made. Use for any visual work — landing pages, product/app UI, mobile screens, film and video tooling, dashboards, docs sites. Loads a brief template, hard gates, and a verify step. Has no house style; it makes the output resemble a real, named reference and reads as crafted by a person.
 ---
 
-# sri-design
+# anti-slop-design
 
 A method, not a theme. The goal of every build is that a designer looks at it
 and cannot tell a model made it. That happens when three things are true:

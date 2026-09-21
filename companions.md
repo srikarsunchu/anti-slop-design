@@ -1,6 +1,6 @@
 # Companion skills
 
-sri-design decides what a thing should look like. Since September 2026 it
+anti-slop-design decides what a thing should look like. Since September 2026 it
 sits next to a set of skills that decide how a thing should move and how a
 component should be built. They are not vendored here; install them beside
 this one and let the handoffs below route the work.

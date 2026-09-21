@@ -24,10 +24,10 @@ companions.md     the motion and component skills that sit beside this one
 ## Install
 
 ```bash
-git clone https://github.com/srikarsunchu/anti-slop-design ~/.claude/skills/sri-design
+git clone https://github.com/srikarsunchu/anti-slop-design ~/.claude/skills/anti-slop-design
 ```
 
-It loads on any UI work, or invoke it with `/sri-design`.
+It loads on any UI work, or invoke it with `/anti-slop-design`.
 
 ## Companions
 

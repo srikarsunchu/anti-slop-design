@@ -6,7 +6,7 @@ Open `index.html` there and read `color.html`, `typography.html`,
 
 ## How to use it
 
-This is a brand specification, not a method. sri-design supplies the method;
+This is a brand specification, not a method. anti-slop-design supplies the method;
 the Elide system supplies the values. When the two disagree on a value, the
 Elide system wins for Elide work.
 
